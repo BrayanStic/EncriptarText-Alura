@@ -41,9 +41,9 @@ footer{
 #box-derecho {
   padding: 10px;
   margin: 0 10px 0 10px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  background-color: rgb(226, 233, 161);
-  border-radius: 0.5em;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  border-radius: 1em;
   width: 30vw;
   height: auto;
 }
@@ -51,11 +51,12 @@ footer{
 #box-izquierdo {
   padding: 10px;
   margin: 0 10px 0 10px;
-  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
-  background-color: rgb(173, 233, 161);
-  border-radius: 0.5em;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  border-radius: 1em;
   width: 30vw;
   height: auto;
+ 
 }
 
 

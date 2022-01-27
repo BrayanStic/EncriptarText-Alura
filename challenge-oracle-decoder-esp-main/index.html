@@ -14,7 +14,9 @@
     <section class="form box" id ="box-izquierdo">
       <form action=" ">
        
-        <textarea class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui"></textarea>
+        <textarea class="text-input" type="text" name="input-texto" id="input-texto"
+         placeholder="Ingrese el texto aqui" style="text-transform:lowercase"
+         onkeypress="return(event.charCode >=97 && event.charCode<=122)"></textarea>
         <p id="msj-sugerencia"><i>*Solo letras minúsculas y sin acentos.</i></p>
         <input class="btn" type="submit" value="Encriptar" id="btn-encriptar" onclick="bttEncriptar()">
         <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar"onclick="bttDesencripar()">
@@ -31,10 +33,10 @@
   </main>
  
     <footer>
-      <p>©Copyright 2022 Brayan Fontecha. Todos los derechos revertidos.</p>
+      <p><i>©Copyright 2022 Brayan Fontecha. Todos los derechos revertidos.</i></p>
       <ul>
-        <li><a href="https://www.facebook.com/bfontecha1/">Facebook</a></li>
-        <li><a href="https://www.instagram.com/b_fontecha/?hl=es-la">Instagram</a></li>
+        <li><i><a href="https://www.facebook.com/bfontecha1/">Facebook</a></i></li>
+        <li><i><a href="https://www.instagram.com/b_fontecha/?hl=es-la">Instagram</a></i></li>
       </ul>
     </footer>
 

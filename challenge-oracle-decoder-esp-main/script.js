@@ -18,6 +18,8 @@ No se permite acentuación de palabras
 Solo letras minusculas
 No se permite acentuación de palabras   
 */
+
+
 function bttEncriptar(){
     event.preventDefault();
     var text=document.querySelector("#input-texto").value;
