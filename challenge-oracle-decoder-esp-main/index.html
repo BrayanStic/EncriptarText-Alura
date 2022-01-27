@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,31 +11,35 @@
   <h1 class="titulo"> CÓDIGO SECRETO</h1>
 
   <main class="main">
-    <section class="form box">
-      <form action="">
+    <section class="form box" id ="box-izquierdo">
+      <form action=" ">
        
-        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
-        <h5 id=""><i>*Solo letras minúsculas y sin acentos.</i></h5>
-        <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
-        <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
+        <textarea class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui"></textarea>
+        <p id="msj-sugerencia"><i>*Solo letras minúsculas y sin acentos.</i></p>
+        <input class="btn" type="submit" value="Encriptar" id="btn-encriptar" onclick="bttEncriptar()">
+        <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar"onclick="bttDesencripar()">
         
       </form>
     </section>
   
-    <section class="msg box">
-      <h3 id="">Mensaje encriptado:</h3>
-      <input class="text-input" type="text" id="msg"></input>
-      <input class="btn" type="submit" value="Copiar" id="btn-copy">
+    <section name="msj" class="msg box"id="box-derecho">
+      <h3 id="subtitulo">Mensaje encriptado:</h3>
+      <textarea class="text-input" type="text" name="msg" id="msg"></textarea>
+      <input class="btn" type="submit" value="Copiar" id="copy" onclick="bttCopiar()"></input>
     </section>
     
   </main>
-  <footer>
-    <p>&copy; 2022 Brayan Fontecha</p>
-    <ul>
-      <li><a href="https://www.facebook.com/bfontecha1/">Facebook</a></li>
-      <li><a href="https://www.instagram.com/b_fontecha/?hl=es-la">Instagram</a></li>
-    </ul>
-  </footer>
+ 
+    <footer>
+      <p>©Copyright 2022 Brayan Fontecha. Todos los derechos revertidos.</p>
+      <ul>
+        <li><a href="https://www.facebook.com/bfontecha1/">Facebook</a></li>
+        <li><a href="https://www.instagram.com/b_fontecha/?hl=es-la">Instagram</a></li>
+      </ul>
+    </footer>
+
+  
+
   <script src="script.js"></script>
 </body>
 </html>
